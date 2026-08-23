@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("./img/paisaje-minecraft-de-jungla-y-rio-en-primavera-13858.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Tarjetas de los YouTubers */
+section {
+    text-align: center;
+    padding: 25px;
+    margin: 25px 0;
+
+    border-radius: 15px;
+
+    /* Hace que el fondo tenga un poco de transparencia */
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+section h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Texto */
+section p {
+    max-width: 700px;
+    margin: 15px auto;
+
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* Botones */
+section a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #212529;
+    border-radius: 8px;
+}
+
+section a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Color diferente para cada YouTuber */
+.Vegetta777 {
+    background-color: rgba(138, 43, 226, 0.85);
+}
+
+.ElRichMC {
+    background-color: rgba(89, 89, 89, 0.85);
+}
+
+.Farfadox {
+    background-color: rgba(197, 92, 0, 0.85);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
